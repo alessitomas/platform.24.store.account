@@ -34,7 +34,7 @@ public interface AccountController {
 
     );
 
-    public ResponseEntity<AccountOut> fallbackGetAccounts(
-            Throwable t);
+//     public ResponseEntity<AccountOut> fallbackGetAccounts(
+//             Throwable t);
 
 }

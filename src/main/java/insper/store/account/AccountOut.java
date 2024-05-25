@@ -1,5 +1,7 @@
 package insper.store.account;
 
+import java.io.Serializable;
+
 import lombok.Builder;
 import lombok.experimental.Accessors;
 
@@ -9,6 +11,6 @@ public record AccountOut (
     String id,
     String name,
     String email
-) {
+) implements Serializable{
     
 }
